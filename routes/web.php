@@ -18,6 +18,12 @@ use Illuminate\Support\Facades\Route;
 
 /* FRONT END */
 // Home
+
+Route::group(['prefix' => 'laravel-filemanager'], function () {
+     \UniSharp\LaravelFilemanager\Lfm::routes();
+ });
+
+
 Route::get('/', 'App\Http\Controllers\Home@index');
 Route::get('home', 'App\Http\Controllers\Home@index');
 Route::get('kontak', 'App\Http\Controllers\Home@kontak');
