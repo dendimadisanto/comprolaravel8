@@ -28,7 +28,7 @@ $bg   = DB::table('heading')->where('halaman','AWS')->orderBy('id_heading','DESC
       </div>
    </div>
    <!--About Txt Video End--> 
-{{ -- <?php 
+<?php 
 $bg2   = DB::table('heading')->where('halaman','Team')->orderBy('id_heading','DESC')->first();
  ?>
 <!--Inner Header Start-->
@@ -70,7 +70,7 @@ $bg2   = DB::table('heading')->where('halaman','Team')->orderBy('id_heading','DE
             <?php }} ?>
       </div>
    </div>
-</section> -- }}
+</section>
 <!--Causes End--> 
 
 <!--Service Area Start-->
